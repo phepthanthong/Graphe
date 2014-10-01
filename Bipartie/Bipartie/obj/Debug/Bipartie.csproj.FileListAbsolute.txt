@@ -1,0 +1,11 @@
+C:\Users\Hieu\Desktop\Bipartie\Bipartie\bin\Debug\Bipartie.exe.config
+C:\Users\Hieu\Desktop\Bipartie\Bipartie\bin\Debug\Bipartie.exe
+C:\Users\Hieu\Desktop\Bipartie\Bipartie\bin\Debug\Bipartie.pdb
+C:\Users\Hieu\Desktop\Bipartie\Bipartie\obj\Debug\Bipartie.csprojResolveAssemblyReference.cache
+C:\Users\Hieu\Desktop\Bipartie\Bipartie\obj\Debug\Bipartie.Form1.resources
+C:\Users\Hieu\Desktop\Bipartie\Bipartie\obj\Debug\Bipartie.Properties.Resources.resources
+C:\Users\Hieu\Desktop\Bipartie\Bipartie\obj\Debug\Bipartie.csproj.GenerateResource.Cache
+C:\Users\Hieu\Desktop\Bipartie\Bipartie\obj\Debug\Bipartie.exe
+C:\Users\Hieu\Desktop\Bipartie\Bipartie\obj\Debug\Bipartie.pdb
+C:\Users\Hieu\Desktop\Graphe\Bipartie\Bipartie\bin\Debug\Bipartie.exe.config
+C:\Users\Hieu\Desktop\Graphe\Bipartie\Bipartie\obj\Debug\Bipartie.pdb

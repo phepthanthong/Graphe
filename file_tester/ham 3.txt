@@ -1,0 +1,59 @@
+ private void binaire_Adjacency_Lists()
+        {
+            int sodinh = 0;
+            for (int h = 0; h < 50; h++)
+            {
+                if (array[h] == "")
+                    break;
+                sodinh++;
+            }
+            string[] dinh = new string[sodinh];
+            for (int h = 0; h < sodinh; h++)
+                dinh[h] = "";
+            bool thoat = false;
+            bool ok = true;
+            dinh[0] = "a";
+            int i = 0;
+            while (thoat == false && ok == true)
+            {
+                if (dinh[i] == "a")
+                {
+                    for (int j = 0; j < array[i].Length; j++)
+                    {
+                        if (dinh[int.Parse(array[i][j].ToString())] == "a")
+                            ok = false;
+                        else if (dinh[(int.Parse(array[i][j].ToString()))] != "b")
+                            dinh[(int.Parse(array[i][j].ToString()))] = "b";
+                    }
+                }
+                else if (dinh[i] == "b")
+                {
+                    for (int j = 0; j < array[i].Length; j++)
+                    {
+                        if (dinh[int.Parse(array[i][j].ToString())] == "b")
+                            ok = false;
+                        else if (dinh[int.Parse(array[i][j].ToString())] != "a")
+                            dinh[int.Parse(array[i][j].ToString())] = "a";
+                    }
+                }
+                int count = 0;
+                for (int j = 0; j < sodinh; j++)
+                    if (dinh[j] == "a" || dinh[j] == "b")
+                        count++;
+                if (count == sodinh && i == sodinh - 1)
+                    thoat = true;
+                i++;
+                if (i == sodinh)
+                    i = 0;
+            }
+            string show = "";
+            if (ok == false)
+                MessageBox.Show("khong duoc");
+            else
+            {
+                for (int j = 0; j < sodinh; j++)
+                    if (dinh[j] == "a")
+                        show += j.ToString() + " ";
+                MessageBox.Show(show);
+            }
+        }
